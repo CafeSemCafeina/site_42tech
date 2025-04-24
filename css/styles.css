@@ -126,7 +126,8 @@ nav ul li a:hover {
 }
 
 main {
-    margin-top: 72px;
+    /* Ajuste na margem superior para acomodar o cabeçalho fixo */
+    margin-top: 140px;
     padding: 2rem 1rem;
     max-width: 1200px;
     margin-left: auto;
@@ -453,7 +454,8 @@ footer {
 }
 
 main {
-    margin-top: 72px;
+    /* Ajuste na margem superior para acomodar o cabeçalho fixo */
+    margin-top: 140px;
     padding: 2rem 1rem;
     padding-bottom: 5rem;
     max-width: 1200px;

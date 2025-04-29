@@ -1,0 +1,16 @@
+##### THIS ALLOWS US TO DEPLOY THE SITE FROM A GIT REPO ######
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/joaov812/public_html/
+    - /bin/cp -R .vscode $DEPLOYPATH
+    - /bin/cp -R css $DEPLOYPATH
+    - /bin/cp -R images $DEPLOYPATH # Corrigido de 'img' para 'images'
+    - /bin/cp -R javascript $DEPLOYPATH # Corrigido de 'js' para 'javascript'
+    - /bin/cp -R svg $DEPLOYPATH # Adicionado pasta svg
+    - /bin/cp index.html $DEPLOYPATH
+    - /bin/cp contato.html $DEPLOYPATH # Adicionado arquivo
+    - /bin/cp sobre.html $DEPLOYPATH # Adicionado arquivo
+    - /bin/cp projetos.html $DEPLOYPATH # Adicionado arquivo
+    - /bin/cp nosso-time.html $DEPLOYPATH # Adicionado arquivo (verifique se o nome está correto)
+    - /bin/cp privacy-policy.html $DEPLOYPATH # Adicionado arquivo
